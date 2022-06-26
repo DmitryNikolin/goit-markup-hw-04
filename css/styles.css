@@ -172,6 +172,9 @@ ul {
 	padding-bottom: 200px;
 	text-align: center;
 	background-color: var(--top-main-bck);
+	background-image: url(../images/img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .top-main-text {
@@ -237,6 +240,14 @@ ul {
 	font-size: 14px;
 	line-height: 1.71;
 	color: var(--primary-contact-color)
+}
+
+.features-icons {
+    outline: 1px solid red;
+}
+
+.features-icon {
+    outline: 1px solid yellow;
 }
 
 .middle-main-list .item + .item {
