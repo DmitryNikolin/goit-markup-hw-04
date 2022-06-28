@@ -181,7 +181,7 @@ ul {
 .contacts a:hover,
 .contacts a:focus {
 	color: var(--accent-color);
-	stroke: var(--accent-color);
+	fill: var(--accent-color);
 }
 
 .top-main {
@@ -191,9 +191,9 @@ ul {
 	border: 1px solid var(--logo-text-color);
 	background-color: var(--top-main-bck);
 	background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img.jpg);
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	background-size: cover;
-    background-position: center;
+	background-position: center;
 }
 
 .top-main-text {
@@ -262,7 +262,7 @@ ul {
 .middle-main-list p {
 	font-size: 14px;
 	line-height: 1.71;
-	color: var(--primary-contact-color)
+	color: var(--primary-contact-color);
 }
 
 .features-icons {
@@ -270,7 +270,7 @@ ul {
 	background-color: var(--bottom-main-bck);
 }
 
- .features-icon {
+.features-icon {
 	width: 70px;
 	height: 70px;
 }
@@ -384,7 +384,6 @@ ul {
 	border-radius: 50%;
 	background-color: var(--accent-color);
 	color: var(--menu-bck);
-	stroke: var(--menu-bck);
 	fill: var(--menu-bck);
 }
 
@@ -395,6 +394,54 @@ ul {
 .si {
 	width: 20px;
 	height: 20px;
+}
+
+.clients-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.company {
+	display: flex;
+	justify-content: center;
+}
+
+.clients {
+	padding-bottom: 94px;
+}
+
+.clients a {
+	display: flex;
+	width: 170px;
+	height: 92px;
+	align-items: center;
+	justify-content: center;
+	fill: var(--person-bck);
+	border: 1px solid var(--person-bck);
+	border-radius: 4px;
+}
+
+.company .card {
+	display: flex;
+}
+
+.company a:hover,
+.company a:focus {
+	fill: var(--accent-color);
+	color: var(--accent-color);
+	border: 1px solid var(--accent-color);
+}
+
+.clients .card + .card {
+	margin-left: 30px;
+}
+
+.ci {
+	width: 106px;
+	height: 60px;
 }
 
 .menu-footer {
@@ -414,6 +461,10 @@ ul {
 
 .logo-studio-footer {
 	color: var(--menu-bck);
+}
+
+.footer-flex {
+	display: flex;
 }
 
 .footer-address {
@@ -446,6 +497,54 @@ ul {
 	color: var(--accent-color);
 }
 
+.menu-footer .links {
+	margin-top: 15px;
+	margin-left: 70px;
+}
+
+.menu-footer .links h3 {
+	color: var(--menu-bck);
+}
+
+.menu-footer .link {
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 14px;
+	line-height: 1.7;
+}
+
+.menu-footer .social-links {
+	display: flex;
+	width: 206px;
+	height: 44px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.social-links a {
+	display: block;
+	width: 44px;
+	height: 44px;
+	padding: 12px;
+	margin-top: 20px;
+	border-radius: 50%;
+	fill: var(--menu-bck);
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-links a:hover,
+.social-links a:focus {
+	border-radius: 50%;
+	background-color: var(--accent-color);
+	fill: var(--menu-bck);
+	color: var(--menu-bck);
+}
+
+.links .icon + .icon {
+	margin-left: 10px;
+}
+
+/* Portfolio section */
+
 button {
 	padding: 6px 22px;
 	font-family: Roboto, sans-serif;
@@ -464,6 +563,7 @@ button {
 .portfolio {
 	padding-bottom: 94px;
 }
+
 .filter-portfolio {
 	display: flex;
 	justify-content: center;
@@ -478,6 +578,7 @@ button:hover,
 button:focus {
 	color: var(--menu-bck);
 	background-color: var(--accent-color);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .menu-portfolio {
@@ -493,6 +594,11 @@ button:focus {
 	margin-top: var(--items-between);
 	margin-left: var(--items-between);
 	background: var(--menu-bck);
+}
+
+.menu-portfolio .item:hover {
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+	cursor: pointer;
 }
 
 .menu-portfolio .item-text {
