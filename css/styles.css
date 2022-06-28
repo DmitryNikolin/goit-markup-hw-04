@@ -270,7 +270,11 @@ ul {
 }
 
 .features-icons {
-	padding: 25px 100px;
+	display: flex;
+	height: 120px;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
 	background-color: var(--bottom-main-bck);
 }
 
@@ -371,7 +375,7 @@ ul {
 	height: 44px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 32px;
+	margin-top: 16px;
 }
 
 .person a {
@@ -507,6 +511,12 @@ ul {
 }
 
 .menu-footer .links h3 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
 	color: var(--menu-bck);
 }
 
